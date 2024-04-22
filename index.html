@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <img src="img/1.jpg" alt="hotdog">
+    <img src="img/2.jpg" alt="hotdog2">
+    <img src="img/3.jpg" alt="hotdog3">
+    <img src="img/4.jpg" alt="hotdog4">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {    
+            // Mendapatkan semua elemen gambar di halaman
+            const images = document.getElementsByTagName('img');            
+            console.log('Number of images found:', images.length); 
+        });
+    </script>
+</body>
+</html>
